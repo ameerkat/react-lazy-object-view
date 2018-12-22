@@ -1,0 +1,34 @@
+{
+  "name": "react-lazy-object-view",
+  "version": "1.0.0",
+  "description": "React wrapper for lazy-object-view",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "webpack -p",
+    "test": "mocha -r ts-node/register --require ignore-styles --reporter spec ./tst/**/*.spec.ts"
+  },
+  "keywords": [
+    "json",
+    "render",
+    "view",
+    "tree",
+    "lazy",
+    "object",
+    "visualization"
+  ],
+  "author": "ameer.ayoub@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "lazy-object-view": "^1.0.3",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.18",
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
