@@ -1,5 +1,5 @@
 import * as React from "react"
-import LazyObjectView, { RenderOptions } from "lazy-object-view";
+import LazyObjectView, { RenderOptions } from 'lazy-object-view';
 
 export interface ReactLazyObjectViewProps {
     data: any;
