@@ -1,6 +1,9 @@
 # react-lazy-object-view
 react-lazy-object-view is a react component wrapper for [lazy-object-view](https://github.com/ameerkat/lazy-object-view).
 
+## Install
+`npm install --save react-lazy-object-view`
+
 ## Example Usage
 ```
 import React, { Component } from 'react';
